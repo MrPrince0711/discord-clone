@@ -1,0 +1,57 @@
+.sidebarChannel:hover > h4 {
+    color: white;
+    background-color: #40464b;
+}
+
+.sidebarChannel > h4 {
+    display: flex;
+    padding-left: 15px;
+    align-items: center;
+    background-color: #2f3135;
+    color: gray;
+    cursor: pointer;
+}
+
+.channel_hash {
+    font-size: 30px;
+    padding: 8px;
+}
+
+.sidebar_voice, .sidebar_profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+    background-color: #2f3135;
+    padding: 10px;
+    border-top: 1px solid gray;
+}
+
+.voice_info {
+    flex: 1;
+    padding: 10px;
+}
+.voiceIcon, .voice_info > h3{
+    color: #4fb185;
+}
+
+.voice_info > p {
+    font-size: smaller;
+}
+
+.voiceIcons2 > .MuiSvgIcon-root {
+    padding: 10px;
+}
+
+.sidebarProfile_info {
+    flex: 1;
+    padding: 10px;
+}
+
+.sidebarProfile_info > h3 {
+    color: white;
+}
+
+.sidebar_profileIcons > .MuiSvgIcon-root {
+    padding: 10px;
+}
